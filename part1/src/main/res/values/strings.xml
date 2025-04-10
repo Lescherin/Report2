@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="menu">My Application</string>
+    <string-array name="colleges_array">
+        <item>信息技术学院</item>
+        <item>外国语学院</item>
+        <item>机电学院</item>
+        <item>商学院</item>
+        <item>艺术设计学院</item>
+        <item>珠宝学院</item>
+        <item>新闻传播学院</item>
+    </string-array>
+
+    <string name="student_id_icon_description">学生证</string>
+    <string name="name_icon_description">账户名称</string>
+    <string name="gender_icon_description">性别</string>
+    <string name="college_icon_description">学院</string>
+    <string name="major_icon_description">专业</string>
+    <string name="class_icon_description">班级</string>
+    <string name="action_settings">2411664 施翊聪</string>
+
+</resources>
