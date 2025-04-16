@@ -138,7 +138,7 @@
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_weight="1"
-        android:text="使用显示启动" />
+        android:text="使用显式启动" />
 
         <!-- view用于设置按钮之间的间距 -->
         <View
