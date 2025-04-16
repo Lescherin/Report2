@@ -48,8 +48,8 @@ public class MainActivity extends AppCompatActivity {
         spinnerCollege.setAdapter(adapter);
               setAdapter：将适配器绑定到 Spinner。这一步将 ArrayAdapter 中的数据传递给 Spinner 以便显示。通过这个绑定，Spinner 会使用适配器提供的数据和布局来构建用户界面。
          */
-        ArrayAdapter<CharSequence> adapter = ArrayAdapter.createFromResource(this,
-                R.array.colleges_array, android.R.layout.simple_spinner_item);
+        ArrayAdapter<CharSequence> adapter = ArrayAdapter.createFromResource
+        (this,R.array.colleges_array, android.R.layout.simple_spinner_item);
         adapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
         spinnerCollege.setAdapter(adapter);
 
